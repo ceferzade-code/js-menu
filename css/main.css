@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+}
+section{
+    display: flex;
+    background-color: rgb(197, 99, 42);
+    font-size: 18px;
+    box-shadow: 5px 8px 8px 2px #aaaaaa;
+    font-family: sans-serif;
+}
+section>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.806);
+    padding: 16px;
+    background-color: white;
+    display: inline-block;
+    
+}
+section>a:hover{
+    /* font-weight: bold; */
+    color: black;
+}
+section>div.apshn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+section>div.apshn>div.link>a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    display: inline-block;
+}
+section>div.apshn>div.link>a:hover{
+    background-color: white;
+    color: black;
+}
+section>div.apshn>div.icon>a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    display: inline-block;
+    display: none;
+}
+section>div.apshn>div.icon>a:hover{
+    background-color: white;
+    color: black;
+}
+div.linkOnclick{
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    display: none;
+}
+div.linkOnclick>a{
+    text-decoration: none;
+    color:black;
+    padding: 16px;
+    /* display:block; */
+}
+div.linkOnclick>a:hover{
+    background-color: rgba(204, 202, 202, 0.758);
+}

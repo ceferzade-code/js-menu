@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+    section>div.apshn>div.icon>a{
+        display: block;
+    }
+    section>div.apshn>div.link>a{
+        display: none;
+    }
+
+  }

@@ -1,9 +1,40 @@
 @media only screen and (max-width: 600px) {
-    section>div.apshn>div.icon>a{
+    section>div.apshn>div.icon {
         display: block;
     }
-    section>div.apshn>div.link>a{
+
+    section>div.apshn>div.link>a {
         display: none;
     }
 
-  }
+    div.lorem {
+        flex-direction: column;
+    }
+
+    div.lorem>div.loremIcon {
+        text-align: center;
+    }
+
+    div.ipsum {
+        flex-direction: column;
+    }
+
+    div.ipsum>div.ipsumIcon {
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1300px) {
+    div.lorem {
+        width: 1100px;
+        margin: auto;
+    }
+    div.ipsum {
+        width: 1100px;
+        margin: auto;
+    }
+}

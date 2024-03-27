@@ -1,13 +1,17 @@
 
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 section{
     display: flex;
     background-color: rgb(197, 99, 42);
     font-size: 18px;
-    box-shadow: 5px 8px 8px 2px #aaaaaa;
-    font-family: sans-serif;
+    box-shadow: 2px 2px 12px 2px #7c5757c7;
+    z-index: 1;
+   
+    position: sticky;
+    top: 0;
 }
 section>a{
     text-decoration: none;
@@ -36,14 +40,14 @@ section>div.apshn>div.link>a:hover{
     background-color: white;
     color: black;
 }
-section>div.apshn>div.icon>a{
+section>div.apshn>div.icon{
     text-decoration: none;
     color: white;
     padding: 16px;
     display: inline-block;
     display: none;
 }
-section>div.apshn>div.icon>a:hover{
+section>div.apshn>div.icon:hover{
     background-color: white;
     color: black;
 }
@@ -61,4 +65,117 @@ div.linkOnclick>a{
 }
 div.linkOnclick>a:hover{
     background-color: rgba(204, 202, 202, 0.758);
+}
+div.startPage{
+    background-color: rgb(197, 99, 18);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-block: 124px;
+}
+div.startPage>h1{
+    margin: 0;
+    font-size: 64px;
+ 
+}
+div.startPage>h3{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+div.startPage>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 16px 24px;
+    font-size: 18px;
+    
+}
+div.startPage>a:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+div.lorem{
+    display: flex;
+    padding: 20px;
+    padding-block: 50px;
+    /* max-width: 70%;
+    /* text-align: center; */
+/* margin: auto; */ 
+}
+div.lorem>div.loremTexst{
+    flex: 2;
+}
+div.lorem>div.loremTexst>h2{
+   font-size: 34px;
+}
+div.lorem>div.loremTexst>p:nth-child(3){
+    color: rgb(83, 81, 81);
+}
+div.lorem>div.loremIcon{
+    flex: 1;
+    font-size: 172px;
+    color: rgb(197, 99, 18);
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+div.ipsum{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(231, 230, 230, 0.688);
+    padding-block: 60px;
+    /* max-width: 70%; */
+    /* text-align: center; */
+/* margin: auto; */
+  
+}
+
+div.ipsum>div.ipsumTexst{
+    flex: 2;
+}
+div.ipsum>div.ipsumTexst>h2{
+    font-size: 34px;
+ }
+ div.ipsum>div.ipsumTexst>p:nth-child(3){
+    color: rgb(83, 81, 81);
+}
+div.ipsum>div.ipsumIcon{
+    flex: 1;
+    font-size: 172px;
+    color:rgb(197, 99, 18) ;
+    padding-top: 80px;
+    text-align: center;
+}
+div.liveLife{
+    background-color: gray;
+    color: white;
+    padding: 68px;
+    text-align: center;
+}
+div.futter{
+    text-align: center;
+    padding: 60px;
+}
+div.futter>div.sosialIcon{
+    padding: 36px;
+}
+div.futter>div.sosialIcon:hover>*{
+    font-size: 28px;
+}
+div.futter>div.sosialIcon>*{
+    padding: 3px;
+    font-size: 24px;
+    color: gray;
+}
+div.futter>div.sosialIcon>*:hover{
+    color: rgb(192, 189, 189);
+    font-size: 32px;
+}
+div.futter>p{
+    color: gray;
+}
+div.futter>p>a{
+    color: inherit;
 }

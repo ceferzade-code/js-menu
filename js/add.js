@@ -18,7 +18,7 @@ menu.onclick = function () {
     }
 };
 
-let x = document.body.scrollTop;
+let x = document.querySelector(".startPage").scrollTop;
 if (x <= 200) {
     document.querySelector('.home').style.border = "2px solid black";
 } else if (x > 200 && x < 600) {

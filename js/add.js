@@ -17,3 +17,18 @@ menu.onclick = function () {
 
     }
 };
+
+let x = document.body.scrollTop;
+if (x <= 200) {
+    document.querySelector('.home').style.border = "2px solid black";
+} else if (x > 200 && x < 600) {
+    document.querySelector('.link1').style.border = "2px solid black";
+} else if (x > 200 && x < 650) {
+    document.querySelector('.link2').style.border = "2px solid black";
+} else if (x > 1200 && x <= 1800) {
+    document.querySelector('.link3').style.border = "2px solid black";
+} else if (x > 1800) {
+    document.querySelector('.link4').style.border = "2px solid black";
+}
+console.log(x);
+console.log(document.querySelector('.home').style)

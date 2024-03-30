@@ -8,7 +8,7 @@ menu.onclick = function () {
 
     if (document.querySelector('.linkOnclick').style.display == 'none') {
 
-        document.querySelector('.linkOnclick').style.display = 'blok';
+        document.querySelector('.linkOnclick').style.display = 'block';
 
     }
     else {
@@ -34,7 +34,7 @@ menu.onclick = function () {
 // console.log(document.querySelector('.home').style)
 function lorem0(x){
     document.querySelector('.home').style.border= "2px solid black";
-    
+
 
 }
 function normal0(x){
